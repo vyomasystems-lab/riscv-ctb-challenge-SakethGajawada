@@ -3,7 +3,7 @@
 #include "riscv_test.h"
 #include "test_macros.h"
 
-RVTEST_RV64M
+RVTEST_RV32M
 RVTEST_CODE_BEGIN
 
   .align 2
@@ -11,7 +11,7 @@ RVTEST_CODE_BEGIN
 
   li TESTNUM, 2
 illegal_instruction:
-  .word 0              
+  lui t0, 0x12345               
   j fail
   TEST_PASSFAIL
 
