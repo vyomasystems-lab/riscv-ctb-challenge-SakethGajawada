@@ -11,6 +11,9 @@ The format of andi was wrong. Either an immediate value needs to be given or and
 ## Challenge2_loop
 ### Bug Explanation
 The pass state was missing. Need to add a beq to terminate when the result is correct.  
+### Bug Location
+![](https://github.com/vyomasystems-lab/riscv-ctb-challenge-SakethGajawada/blob/main/images/image.png)
+### Proof of Debug
 ![](https://github.com/vyomasystems-lab/riscv-ctb-challenge-SakethGajawada/blob/main/images/challenge2_loop.png)
 
 ## Challenge3_illegal
